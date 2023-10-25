@@ -1,3 +1,5 @@
+require('dotenv').config();
+
 const express = require('express');
 const fs = require('fs');
 const app = express();
@@ -8,7 +10,7 @@ app.use(express.json());
 app.get('/projects', (req, res) => {
     fs.readFile('projects.json', 'utf8', (err, data) => {
         if (err) return res.status(500).send(err);
-        res.status(200).send(JSON.parse(data));
+        res.status(200).json(JSON.parse(data));
     });
 });
 
