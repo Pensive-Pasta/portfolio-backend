@@ -1,5 +1,5 @@
 require('dotenv').config();
-const AWS = require('./aws-config');
+const sesClient = require('./aws-config');  // Import sesClient from aws-config.js
 const express = require('express');
 const fs = require('fs');
 const bodyParser = require('body-parser');
@@ -17,6 +17,8 @@ app.get('/projects', (req, res) => {
     });
 });
 
+const { SendEmailCommand } = require("@aws-sdk/client-ses");
+
 app.post('/contact', async (req, res) => {
     const { name, email, message } = req.body;
 
@@ -33,10 +35,8 @@ app.post('/contact', async (req, res) => {
         },
     };
 
-    const ses = new AWS.SES({ apiVersion: '2010-12-01' });
-
     try {
-        const data = await ses.sendEmail(emailParams).promise();
+        const data = await sesClient.send(new SendEmailCommand(emailParams));
         console.log("Email sent successfully:", data);
         res.status(200).send('Email sent successfully.');
     } catch (error) {
