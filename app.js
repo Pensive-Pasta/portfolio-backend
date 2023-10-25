@@ -1,17 +1,48 @@
 require('dotenv').config();
-
+const AWS = require('./aws-config');
 const express = require('express');
 const fs = require('fs');
+const bodyParser = require('body-parser');
+
 const app = express();
 const PORT = require('./config');
 
 app.use(express.json());
+app.use(bodyParser.urlencoded({ extended: true }));
 
 app.get('/projects', (req, res) => {
     fs.readFile('projects.json', 'utf8', (err, data) => {
         if (err) return res.status(500).send(err);
         res.status(200).json(JSON.parse(data));
     });
+});
+
+app.post('/contact', async (req, res) => {
+    const { name, email, message } = req.body;
+
+    const emailParams = {
+        Source: 'your-email@example.com',
+        Destination: {
+            ToAddresses: ['pensivepasta@gmail.com'],
+        },
+        Message: {
+            Body: {
+                Text: { Data: `Name: ${name}\nEmail: ${email}\nMessage: ${message}` },
+            },
+            Subject: { Data: 'New Contact Form Submission' },
+        },
+    };
+
+    const ses = new AWS.SES({ apiVersion: '2010-12-01' });
+
+    try {
+        const data = await ses.sendEmail(emailParams).promise();
+        console.log("Email sent successfully:", data);
+        res.status(200).send('Email sent successfully.');
+    } catch (error) {
+        console.error("Error sending email:", error);
+        res.status(500).send('Error sending email.');
+    }
 });
 
 app.listen(PORT, () => {
