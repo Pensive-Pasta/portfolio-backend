@@ -1,11 +1,29 @@
 [
     {
         "id": 1,
-        "title": "PROJECT NAME",
+        "title": "PROJECT ONE",
         "tech": ["JavaScript", "React", "HTML", "CSS"],
         "description": "Tellus malesuada proin egestas in suscipit blandit suscipit ut. Nulla gravida venenatis eget augue tellus. Orci volutpat congue et magnis egestas massa est. Suspendisse ultricies.",
         "githubUrl": "https://github.com/Pensive-Pasta",
         "liveSiteUrl": "https://project1.example.com",
         "figmaUrl": "https://www.figma.com/file/abc/project1"
+    },
+    {
+        "id": 2,
+        "title": "PROJECT TWO",
+        "tech": ["JavaScript", "React", "HTML", "CSS"],
+        "description": "Tellus malesuada proin egestas in suscipit blandit suscipit ut. Nulla gravida venenatis eget augue tellus. Orci volutpat congue et magnis egestas massa est. Suspendisse ultricies.",
+        "githubUrl": "https://github.com/Pensive-Pasta",
+        "liveSiteUrl": "https://project1.example.com",
+        "figmaUrl": "https://www.figma.com/file/abc/project2"
+    },
+    {
+        "id": 3,
+        "title": "PROJECT THREE",
+        "tech": ["JavaScript", "React", "HTML", "CSS"],
+        "description": "Tellus malesuada proin egestas in suscipit blandit suscipit ut. Nulla gravida venenatis eget augue tellus. Orci volutpat congue et magnis egestas massa est. Suspendisse ultricies.",
+        "githubUrl": "https://github.com/Pensive-Pasta",
+        "liveSiteUrl": "https://project1.example.com",
+        "figmaUrl": "https://www.figma.com/file/abc/project3"
     }
 ]
