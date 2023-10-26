@@ -3,12 +3,14 @@ const sesClient = require("./aws-config");
 const express = require("express");
 const fs = require("fs");
 const bodyParser = require("body-parser");
+const cors = require("cors");
 
 const app = express();
 const PORT = require("./config");
 
 app.use(express.json());
 app.use(bodyParser.urlencoded({ extended: true }));
+app.use(cors());
 
 app.get("/projects", (req, res) => {
   fs.readFile("projects.json", "utf8", (err, data) => {
@@ -38,7 +40,7 @@ app.post("/contact", async (req, res) => {
   try {
     const data = await sesClient.send(new SendEmailCommand(emailParams));
     console.log("Email sent successfully:", data);
-    res.status(200).send("Email sent successfully.");
+    res.status(200).json({ message: "Email sent successfully." });
   } catch (error) {
     console.error("Error sending email:", error);
     res.status(500).send("Error sending email.");
