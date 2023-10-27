@@ -10,7 +10,20 @@ const PORT = require("./config");
 
 app.use(express.json());
 app.use(bodyParser.urlencoded({ extended: true }));
-app.use(cors());
+
+const corsOptions = {
+    origin: 'https://main.d3fyhkuehrb5u9.amplifyapp.com',
+    optionsSuccessStatus: 200
+}
+app.use(cors(corsOptions));
+
+app.use((req, res, next) => {
+  const timestamp = new Date().toISOString();
+  console.log(
+    `[${timestamp}] ${req.method} request to ${req.path} from ${req.ip}`
+  );
+  next();
+});
 
 app.get("/", (req, res) => {
   res.send("Welcome to my backend!");
