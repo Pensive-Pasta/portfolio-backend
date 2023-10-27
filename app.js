@@ -12,6 +12,10 @@ app.use(express.json());
 app.use(bodyParser.urlencoded({ extended: true }));
 app.use(cors());
 
+app.get("/", (req, res) => {
+  res.send("Welcome to my backend!");
+});
+
 app.get("/projects", (req, res) => {
   fs.readFile("projects.json", "utf8", (err, data) => {
     if (err) return res.status(500).send(err);
