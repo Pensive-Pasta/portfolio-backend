@@ -1,42 +1,70 @@
 [
     {
-        "id": 1,
-        "title": "DungeonSoup",
-        "tech": ["JavaScript", "React", "Next.js", "CSS", "Node", "Express", "SQL", "AWS Amplify", "Render", "Github"],
-        "description": "A full stack app of articles detailing tips and tricks for dungeon explorers, with a RESTFUL API and SQL database, hosted with AWS Amplify and Render. Users can view a list of latest articles and read articles. search by article name, view author profiles and like/dislike articles.",
-        "backEnd": "https://github.com/Pensive-Pasta/DUNGEONSOUP_BACKEND",
-        "frontEnd": "https://github.com/Pensive-Pasta/DUNGEONSOUP",
-        "liveSiteUrl": "https://main.d1d2o9j0h46zlc.amplifyapp.com/",
-        "figmaUrl": "https://www.figma.com/file/Ae0TnDZ4WqDPg0E0IGK4x9/DUNGEONSOUP?type=design&node-id=0%3A1&mode=design&t=gmexnuA7ACxgeJl0-1",
-        "imageUrl": "/dungeon-soup"
+      "id": 1,
+      "title": "DungeonSoup",
+      "tech": [
+        "JavaScript",
+        "React",
+        "Next",
+        "CSS",
+        "Node",
+        "Express",
+        "SQL",
+        "Amplify",
+        "Render",
+        "Github"
+      ],
+      "description":
+        "A full stack app of articles detailing tips and tricks for dungeon explorers, with a RESTFUL API and SQL database, hosted with AWS Amplify and Render. Users can view a list of latest articles and read articles. search by article name, view author profiles and like/dislike articles.",
+      "backEnd": "https://github.com/Pensive-Pasta/DUNGEONSOUP_BACKEND",
+      "frontEnd": "https://github.com/Pensive-Pasta/DUNGEONSOUP",
+      "liveSiteUrl": "https://main.d1d2o9j0h46zlc.amplifyapp.com/",
+      "figmaUrl":
+        "https://www.figma.com/file/Ae0TnDZ4WqDPg0E0IGK4x9/DUNGEONSOUP?type=design&node-id=0%3A1&mode=design&t=gmexnuA7ACxgeJl0-1",
+      "imageUrl": "/dungeon-soup"
     },
     {
-        "id": 2,
-        "title": "Portfolio",
-        "tech": ["JavaScript", "React", "Next.js", "Formik", "AWS SES", "AWS Amplify", "Postman", "Github"],
-        "description": "A full stack portfolio with a RESTful API, email submission form, and fully responsive design.",
-        "backEnd": "https://github.com/Pensive-Pasta/portfolio-backend",
-        "frontEnd": "https://github.com/Pensive-Pasta/portfolio",
-        "liveSiteUrl": "https://main.d3fyhkuehrb5u9.amplifyapp.com/",
-        "figmaUrl": "https://www.figma.com/file/76LBpCAiY5RuDuWzC0vHPm/Website?type=design&mode=design&t=gmexnuA7ACxgeJl0-0",
-        "imageUrl": "/portfolio"
+      "id": 2,
+      "title": "Portfolio",
+      "tech": [
+        "JavaScript",
+        "React",
+        "Next",
+        "Formik",
+        "SES",
+        "Amplify",
+        "Postman",
+        "Github"
+      ],
+      "description":
+        "A full stack portfolio with a RESTful API, email submission form, and fully responsive design.",
+      "backEnd": "https://github.com/Pensive-Pasta/portfolio-backend",
+      "frontEnd": "https://github.com/Pensive-Pasta/portfolio",
+      "liveSiteUrl": "https://main.d3fyhkuehrb5u9.amplifyapp.com/",
+      "figmaUrl":
+        "https://www.figma.com/file/76LBpCAiY5RuDuWzC0vHPm/Website?type=design&mode=design&t=gmexnuA7ACxgeJl0-0",
+      "imageUrl": "/portfolio"
     },
     {
-        "id": 3,
-        "title": "RockiPocki",
-        "tech": ["JavaScript", "HTML", "CSS"],
-        "description": "A fully responsive mock business site designed to showcase and sell rocks.",
-        "githubUrl": "https://github.com/Pensive-Pasta/RockiPocki",
-        "figmaUrl": "https://www.figma.com/file/0Cyjk7cEczMwV67BqLWaP1/HTML-CSS-JS?type=design&mode=design&t=gmexnuA7ACxgeJl0-0",
-        "imageUrl": "/rockipocki"
+      "id": 3,
+      "title": "RockiPocki",
+      "tech": ["JavaScript", "HTML", "CSS"],
+      "description":
+        "A fully responsive mock business site designed to showcase and sell rocks.",
+      "githubUrl": "https://github.com/Pensive-Pasta/RockiPocki",
+      "figmaUrl":
+        "https://www.figma.com/file/0Cyjk7cEczMwV67BqLWaP1/HTML-CSS-JS?type=design&mode=design&t=gmexnuA7ACxgeJl0-0",
+      "imageUrl": "/rockipocki"
     },
     {
-        "id": 4,
-        "title": "LunaLux Club",
-        "tech": ["JavaScript", "HTML", "CSS"],
-        "description": "A fully responsive mock business site selling trips to Jupiter's icy moon, Europa.",
-        "githubUrl": "https://github.com/Pensive-Pasta/LunaLuxCLub",
-        "figmaUrl": "https://www.figma.com/file/0Cyjk7cEczMwV67BqLWaP1/HTML-CSS-JS?type=design&mode=design&t=gmexnuA7ACxgeJl0-0",
-        "imageUrl": "/lunalux-club"
+      "id": 4,
+      "title": "LunaLux Club",
+      "tech": ["JavaScript", "HTML", "CSS"],
+      "description":
+        "A fully responsive mock business site selling trips to Jupiter's icy moon, Europa.",
+      "githubUrl": "https://github.com/Pensive-Pasta/LunaLuxCLub",
+      "figmaUrl":
+        "https://www.figma.com/file/0Cyjk7cEczMwV67BqLWaP1/HTML-CSS-JS?type=design&mode=design&t=gmexnuA7ACxgeJl0-0",
+      "imageUrl": "/lunalux-club"
     }
-]
+  ]
