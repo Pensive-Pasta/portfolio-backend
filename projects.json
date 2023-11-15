@@ -51,7 +51,7 @@
       "tech": ["JavaScript", "HTML", "CSS"],
       "description":
         "A fully responsive mock business site designed to showcase and sell rocks.",
-      "githubUrl": "https://github.com/Pensive-Pasta/RockiPocki",
+      "frontEnd": "https://github.com/Pensive-Pasta/RockiPocki",
       "figmaUrl":
         "https://www.figma.com/file/0Cyjk7cEczMwV67BqLWaP1/HTML-CSS-JS?type=design&mode=design&t=gmexnuA7ACxgeJl0-0",
       "imageUrl": "/rockipocki"
@@ -62,7 +62,7 @@
       "tech": ["JavaScript", "HTML", "CSS"],
       "description":
         "A fully responsive mock business site selling trips to Jupiter's icy moon, Europa.",
-      "githubUrl": "https://github.com/Pensive-Pasta/LunaLuxCLub",
+      "frontEnd": "https://github.com/Pensive-Pasta/LunaLuxCLub",
       "figmaUrl":
         "https://www.figma.com/file/0Cyjk7cEczMwV67BqLWaP1/HTML-CSS-JS?type=design&mode=design&t=gmexnuA7ACxgeJl0-0",
       "imageUrl": "/lunalux-club"
