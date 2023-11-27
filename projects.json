@@ -15,7 +15,7 @@
         "Github"
       ],
       "description":
-        "A full stack app of articles detailing tips and tricks for dungeon explorers, with a RESTFUL API and SQL database, hosted with AWS Amplify and Render. Users can view a list of latest articles and read articles. search by article name, view author profiles and like/dislike articles.",
+        "A full stack app of articles detailing tips and tricks for dungeon explorers, with a RESTFUL API and SQL database, hosted with AWS Amplify and Render. Users can view a list of latest articles and read articles. Search by article name, view author profiles and like/dislike articles.",
       "backEnd": "https://github.com/Pensive-Pasta/DUNGEONSOUP_BACKEND",
       "frontEnd": "https://github.com/Pensive-Pasta/DUNGEONSOUP",
       "liveSiteUrl": "https://main.d1d2o9j0h46zlc.amplifyapp.com/",

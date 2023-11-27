@@ -12,9 +12,12 @@ app.use(express.json());
 app.use(bodyParser.urlencoded({ extended: true }));
 
 const corsOptions = {
-    origin: 'https://main.d3fyhkuehrb5u9.amplifyapp.com',
-    optionsSuccessStatus: 200
-}
+  origin: [
+    "https://main.d3fyhkuehrb5u9.amplifyapp.com",
+    "https://www.rickybutcherdeveloper.co.uk",
+  ],
+  optionsSuccessStatus: 200,
+};
 app.use(cors(corsOptions));
 
 app.use((req, res, next) => {
