@@ -15,6 +15,7 @@ const corsOptions = {
   origin: [
     "https://main.d3fyhkuehrb5u9.amplifyapp.com",
     "https://www.rickybutcherdeveloper.co.uk",
+    "http://localhost:3000",
   ],
   optionsSuccessStatus: 200,
 };
