@@ -15,7 +15,7 @@
         "Github"
       ],
       "description":
-        "A full stack app of articles detailing tips and tricks for dungeon explorers, inspired by a love for geeking out on all things fantasy and created with a RESTFUL API and SQL database, hosted with AWS Amplify and Render. Users can view a list of latest articles and read articles, search by article name, view author profiles and like/dislike articles.",
+        "A full stack blog app of articles detailing tips and tricks for dungeon explorers, created with a RESTFUL API and SQL database, hosted with AWS Amplify and Render. Users can view a list of latest articles and read articles, search by article name, view author profiles and like/dislike articles.",
       "frontEnd": "https://github.com/Pensive-Pasta/DUNGEONSOUP",
       "backEnd": "https://github.com/Pensive-Pasta/DUNGEONSOUP_BACKEND",
       "liveSiteUrl": "https://main.d1d2o9j0h46zlc.amplifyapp.com/",
@@ -37,7 +37,7 @@
         "Github"
       ],
       "description":
-        "A full-stack task management web app with a RESTful API and MongoDB database, built using Next.js and React. Features include task creation, editing, deletion, and real-time updates, with an intuitive UI and animations for enhanced user interaction.",
+        "A full stack task management web app with a RESTful API and MongoDB database, built using Next.js and React. Features include task creation, editing, deletion, and real-time updates, with an intuitive UI and animations for enhanced user interaction.",
       "frontEnd": "https://github.com/Pensive-Pasta/nindo-task",
       "backEnd": "https://github.com/Pensive-Pasta/nindo-task-backend",
       "liveSiteUrl": "https://main.d2l2xcdjiw7jsr.amplifyapp.com/",
@@ -57,7 +57,7 @@
         "Github"
       ],
       "description":
-        "Yes that's right, this very site you are on right now is a full stack app with a RESTful API, email submission form, and fully responsive design.",
+        "A full stack portfolio app with a RESTful API, email submission form, and fully responsive design.",
       "frontEnd": "https://github.com/Pensive-Pasta/portfolio",
       "backEnd": "https://github.com/Pensive-Pasta/portfolio-backend",
       "liveSiteUrl": "https://rickybutcherdeveloper.co.uk",
